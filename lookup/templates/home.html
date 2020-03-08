@@ -2,12 +2,6 @@
 
 {% block content %}
 
-<p>
-    {% if zipcode %}
-        {{ zipcode }}
-    </p>
-    {% endif %}
-
 {% if api %}
     {% if api == "Error" %}
         There was an error. please try again...
